@@ -83,10 +83,10 @@ main:
 
 ## 3. Running
 
-makefile compiles all files provided, so just need to tpye "make" in the terminal. 
+makefile compiles all files provided, so just need to tpye "make" in the terminal, and run "main.exe".
 
 ```
-binarystr1 k1 binarystr2 k2
+(binarystr1 k1 binarystr2 k2)
 Sample input: 000000 2 0111 2 
 Sample output: 010000 1110 3
 ```
