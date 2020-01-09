@@ -8,10 +8,6 @@ DNA contains the genetic code that defines the structure of every organism on Ea
 
 In this practical, we are going to represent an individual with a binary “DNA” strand and mutate it over a number of generations to get a better quality individual. The concepts in this practical are related to Evolutionary Computation, a field of Artificial Intelligence.
 
-Evolutionary computation has been used to solve a number of problems, including mak- ing virtual creatures, reducing race time for athletes, designing strategies for satellite coverage, designing turbines... the list goes on. The following articles provide some kind of overview on evolutionary algorithms. Please have a read if you are interested.
-* http://www.perlmonks.org/?node_id=298877
-* http://www.genetic-programming.com/published/usnwr072798.html
-
 ### 2.1 BinaryNode
 In this practical, we use a class called BinaryNode to represent a gene on the DNA. BinaryNode has a boolean variable storing the value of this gene. Every BinaryNode object points to another BinaryNode object, which create a linked list. You should be able to iterate through the linked list by traversing pointers.
 void example(BinaryNode* head){
