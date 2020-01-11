@@ -10,6 +10,8 @@ In this practical, we are going to represent an individual with a binary â€œDNAâ
 
 ### 2.1 BinaryNode
 In this practical, we use a class called BinaryNode to represent a gene on the DNA. BinaryNode has a boolean variable storing the value of this gene. Every BinaryNode object points to another BinaryNode object, which create a linked list. You should be able to iterate through the linked list by traversing pointers.
+
+```
 void example(BinaryNode* head){
     BinaryNode* ptr = head;
     while (ptr != NULL){
@@ -17,6 +19,7 @@ void example(BinaryNode* head){
         ptr = ptr->getNext();
     }
 }
+```
 
 ### 2.2 Representing binary DNA
 The binary DNA is represented by the Individual class which uses BinaryNode to hold a list of binary digits. Your Individual class should at least have the following functions:
